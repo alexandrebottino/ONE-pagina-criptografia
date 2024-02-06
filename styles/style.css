@@ -192,7 +192,8 @@ textarea {
             width: 360px;
         }
         .edicao_alerta {
-            margin-left: 15%;
+        margin-left: 0;
+        margin-right: 0%;
         }
         .saida_criptografia {
             height: auto;
@@ -200,6 +201,9 @@ textarea {
         }
         #textarea_criptografia {
             font-size: 2rem;
+        }
+        .botoes_posicao_geral{
+            margin-right: 2%;
         }
     }
 }
