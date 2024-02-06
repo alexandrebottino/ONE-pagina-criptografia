@@ -179,4 +179,27 @@ textarea {
         height: auto;
     }
     
+    @media screen and (max-width: 375px) {
+        .pagina_geral {
+            margin-top: 3%;
+            display: block;
+            justify-items: center;
+        }
+        #imagem_edicao_criptografia {
+            display: none;
+        }
+        .edicao_caixa {
+            width: 360px;
+        }
+        .edicao_alerta {
+            margin-left: 15%;
+        }
+        .saida_criptografia {
+            height: auto;
+            margin: 3% 3% 3% 5%;
+        }
+        #textarea_criptografia {
+            font-size: 2rem;
+        }
+    }
 }
