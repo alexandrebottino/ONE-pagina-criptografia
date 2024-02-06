@@ -169,6 +169,9 @@ textarea {
         display:block;
         justify-items: center;
     }
+    .edicao_alerta {
+        margin-left: 10rem;
+    }
     .box_texto {
         margin-top: 2rem;
     }
