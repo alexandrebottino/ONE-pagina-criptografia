@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Decodificador de Texto</title>
+</head>
+<body class="pagina_geral">
+            <header class="cabecalho_imagem">
+                <img src="./assets/Frame 6.png" alt="logo_alura">
+            </header> 
+            
+            <div class="edicao_area_conteudo">
+                <textarea class="edicao_caixa" id="campo_inserir_texto" placeholder="Digite o texto para Criptografar"></textarea>
+                    
+                    <div>
+                        <p class="edicao_alerta">
+                        <img id="imagem_alerta" src="./assets/bi_exclamation-circle-fill.png" alt="imagem de atencao"> 
+                            Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                
+                    <div class="botoes_posicao_geral">
+                        <button id="botao_criptografar" class="conteudo_pagina_botao" onclick="codificarTexto()">Criptografar</button>
+                        <button id="botao_descriptografar" class="conteudo_pagina_botao" onclick="decodificarTexto()">Descriptografar</button>
+                    </div>
+            </div>    
+    
+            <div class="saida_criptografia">   
+
+                <div class="criptografia_imagem">
+                    <img id= "imagem_edicao_criptografia"src="./assets/High quality products 1 1.svg" alt="foto campo sem codificação">
+                </div>           
+                
+                <div class="box_texto">
+                    <div class="criptografia_titulo">
+                        <h2 id="titulo_texto_criptografia">Nenhuma mensagem encontrada</h2>
+                    </div>
+                   
+                    <div>
+                        <p id="corpo_texto_criptografia"class="conteudo_saida_criptografia_alerta_texto">
+                        Digite um texto que vc deseja criptografar ou Descriptografar.
+                        </p>
+                        <textarea style="display: none;" id="textarea_criptografia">
+                        </textarea>   
+                    </div>
+                </div>
+                <div class="conteudo_saida_criptografia_botao_copiar">
+                    <button id="botao_copiar" class="conteudo_pagina_botao" onclick="copiarTexto()" style="display: none;">Copiar</button>
+                </div>
+            </div> 
+            
+
+<script src="./app.js" defer></script> 
+</body>
+</html>
