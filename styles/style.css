@@ -168,6 +168,7 @@ textarea {
     .edicao_caixa {
         display:block;
         justify-items: center;
+        margin: 0;
     }
     .edicao_alerta {
         margin-left: 10rem;
