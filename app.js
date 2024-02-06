@@ -85,9 +85,9 @@ function copiarTexto() {
     let copiarTextoatual = document.querySelector('#botao_copiar');    
     copiarTextoatual.addEventListener('click',(e) =>{ //adiciona o envento de clique na id #botao_copiar
     
-        let textoCopiado = document.getElementById('textarea_criptografia').innerHTML;
-        console.log(textoCopiado);  
+        let textoCopiado = document.getElementById('textarea_criptografia').innerHTML;  
         navigator.clipboard.writeText(textoCopiado);
+        
         alert("Texto copiado com sucesso.");
 });
 }

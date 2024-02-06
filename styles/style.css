@@ -52,7 +52,7 @@ input::placeholder {
 }
 .edicao_alerta {
     display: flex;
-    font-size: 0.1rem;
+    font-size: 1rem;
     font-family: var(--fonte-principal);
     color: var(--cor-terciaria);
 }
@@ -121,7 +121,7 @@ h2 {
     font-family: var(--fonte-principal);
     color: var(--cor-terciaria);
     text-align: center;
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 .conteudo_saida_criptografia_botao_copiar{
     position: static;
